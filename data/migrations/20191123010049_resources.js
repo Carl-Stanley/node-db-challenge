@@ -1,6 +1,6 @@
 exports.up = function(knex) {
     return knex.schema
-        .createTable('projects_resources', table => {
+        .createTable('proj_resources', table => {
             table
                 .integer('project_id')
                 .unsigned()
